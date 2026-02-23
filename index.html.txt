@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Blindaje Sanitario 2026 - Dra. Weber</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .medical-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        }
+        .urgent-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Sección Hero -->
+    <section class="medical-gradient text-white py-16 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-red-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest">Cupo Limitado</span>
+            <h1 class="text-3xl md:text-5xl font-bold mt-6 mb-4">Blindaje Sanitario 2026: Evita Multas de COFEPRIS</h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-8">Protege tu consultorio, tu patrimonio y tu tranquilidad con el método de la Dra. Weber.</p>
+            <div class="bg-white/10 backdrop-blur-md inline-block px-8 py-4 rounded-2xl border border-white/20">
+                <p class="text-sm uppercase opacity-80">Próxima Fecha</p>
+                <p class="text-2xl font-bold">Sábado 15 de Marzo | 9:00 AM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Problema -->
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-6">¿Tu consultorio está realmente en regla?</h2>
+                <p class="text-slate-600 mb-4 text-lg text-pretty">La mayoría de los colegas creen que su expediente clínico cumple con la norma, hasta que un verificador llega sin avisar.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 font-bold text-xl leading-none">✕</span>
+                        <span>Multas por expediente incompleto: <strong>$45,000+</strong></span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 font-bold text-xl leading-none">✕</span>
+                        <span>Sanciones por mal manejo de RPBI: <strong>$80,000+</strong></span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 font-bold text-xl leading-none">✕</span>
+                        <span>Clausura parcial por falta de trámites administrativos.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 rounded-3xl p-8 text-white shadow-2xl border-4 border-blue-900">
+                <h3 class="text-xl font-bold mb-4 text-blue-400 italic underline decoration-blue-500/30">Lo que aprenderás:</h3>
+                <nav class="space-y-4">
+                    <div class="border-l-2 border-blue-500 pl-4">
+                        <p class="font-bold">Módulo 1: La Auditoría Interna</p>
+                        <p class="text-sm text-slate-400">NOM-004-SSA3-2012 y puntos críticos de revisión.</p>
+                    </div>
+                    <div class="border-l-2 border-blue-500 pl-4">
+                        <p class="font-bold">Módulo 2: El Protocolo del Verificador</p>
+                        <p class="text-sm text-slate-400">Cómo actuar y responder ante una inspección sorpresa.</p>
+                    </div>
+                    <div class="border-l-2 border-blue-500 pl-4">
+                        <p class="font-bold">Módulo 3: El Simulacro de Inspección</p>
+                        <p class="text-sm text-slate-400">Práctica real de qué decir y qué evitar bajo presión.</p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <section class="py-16 px-6 max-w-4xl mx-auto bg-slate-100 rounded-3xl my-8">
+        <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">Preguntas Frecuentes</h2>
+        <div class="space-y-4">
+            <details class="group bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-900 list-none flex justify-between items-center">
+                    ¿Este taller es para todas las especialidades?
+                    <span class="transition group-open:rotate-180">▼</span>
+                </summary>
+                <p class="text-slate-600 text-sm leading-relaxed mt-4">Sí. La normativa de COFEPRIS es universal para todo consultorio médico y clínica en territorio mexicano, independientemente de la especialidad.</p>
+            </details>
+            <details class="group bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-900 list-none flex justify-between items-center">
+                    ¿Recibiré material de apoyo descargable?
+                    <span class="transition group-open:rotate-180">▼</span>
+                </summary>
+                <p class="text-slate-600 text-sm leading-relaxed mt-4">Al finalizar la sesión, tendrás acceso a una carpeta exclusiva con plantillas editables y el guion de defensa legal ante verificadores.</p>
+            </details>
+            <details class="group bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-900 list-none flex justify-between items-center">
+                    ¿Se entrega constancia de participación?
+                    <span class="transition group-open:rotate-180">▼</span>
+                </summary>
+                <p class="text-slate-600 text-sm leading-relaxed mt-4">Sí, se entrega una constancia digital avalada por la Dra. Weber que acredita tu asistencia al taller de blindaje.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- Sección de Inversión -->
+    <section class="py-20 px-6 text-center">
+        <div class="max-w-xl mx-auto border-2 border-blue-600 rounded-3xl p-10 bg-white shadow-xl">
+            <h2 class="text-2xl font-bold mb-2 text-slate-900">Invierte en tu Seguridad Legal</h2>
+            <div class="flex items-center justify-center gap-4 mb-4">
+                <span class="text-slate-400 line-through text-2xl">$3,490</span>
+                <span class="text-5xl font-extrabold text-blue-700">$2,990</span>
+            </div>
+            <p class="text-blue-600 font-bold mb-8 uppercase tracking-widest text-sm italic">Precio Preventa Especial hasta el 28 de febrero</p>
+            
+            <!-- RECUERDA: Cambia el número '521234567890' por tu WhatsApp real -->
+            <a href="https://wa.me/521234567890?text=Hola%20Dra.%20Weber%2C%20me%20gustar%C3%ADa%20inscribirme%20al%20taller%20de%20Blindaje%20Sanitario" class="urgent-pulse block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transition-all">
+                Apartar mi lugar por WhatsApp
+            </a>
+            <p class="text-slate-400 text-xs mt-6">Métodos de pago: Transferencia, PayPal o Tarjeta de Crédito.</p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-slate-900 text-slate-400 py-10 text-center text-sm border-t border-slate-800">
+        <p class="text-slate-300">Facilitado con rigor técnico por la <strong>Dra. Weber</strong></p>
+        <p class="mt-2 opacity-50 text-xs uppercase tracking-widest">Todos los derechos reservados © 2026 | Blindaje Sanitario México</p>
+    </footer>
+
+</body>
+</html>
